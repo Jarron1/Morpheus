@@ -1,4 +1,4 @@
-<script>
+{
     document.getElementById('settingsModal').addEventListener('show.bs.modal', function (event) {
         // Code to handle the opening of the modal, e.g., loading current settings
     });
@@ -14,4 +14,4 @@
     }
 
     document.querySelector('#settingsModal .btn-primary').addEventListener('click', saveSettings);
-</script>
+}
